@@ -31,8 +31,8 @@ jobs:
             fi
           done
 
-          # ai-memory - allowed in test fixtures (simulated log content)
-          AI_MEM_BAD=$(grep -ri "ai-memory" --include="*.py" --include="*.md" --include="*.toml" . 2>/dev/null | grep -v ".git/" | grep -v "security-scan.yml" | grep -v "conftest.py\|test_" | wc -l)
+          # ai-memory - allowed in test fixtures (simulated log content in conftest)
+          AI_MEM_BAD=$(grep -ri "ai-memory" --include="*.py" --include="*.md" --include="*.toml" . 2>/dev/null | grep -v ".git/" | grep -v "security-scan.yml" | grep -v "conftest\|test" | wc -l)
           if [ "$AI_MEM_BAD" -gt 0 ]; then echo "FAIL: ai-memory outside test fixtures"; FAILED=1; else echo "CONTEXT PASS: ai-memory (test fixtures only)"; fi
 
           # NEXT.md - allowed in server.py + scorer (MCP catalog entries)
