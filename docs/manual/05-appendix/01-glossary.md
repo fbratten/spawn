@@ -2,7 +2,7 @@
 title: Glossary
 section: 05-appendix
 order: 1
-generated: 2026-04-03T01:21:31.174499
+generated: 2026-04-03T01:30:01.285075
 ---
 # Glossary
 

@@ -2,7 +2,7 @@
 title: Worked Examples
 section: 01-user-guide
 order: 4
-generated: 2026-04-03T01:21:31.033843
+generated: 2026-04-03T01:30:01.131634
 ---
 # Worked Examples
 

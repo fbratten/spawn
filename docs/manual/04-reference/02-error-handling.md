@@ -2,7 +2,7 @@
 title: Error Handling
 section: 04-reference
 order: 2
-generated: 2026-04-03T01:21:31.148358
+generated: 2026-04-03T01:30:01.260941
 ---
 # Error Handling
 

@@ -2,7 +2,7 @@
 title: Configuration
 section: 04-reference
 order: 1
-generated: 2026-04-03T01:21:31.137186
+generated: 2026-04-03T01:30:01.251426
 ---
 # Configuration
 

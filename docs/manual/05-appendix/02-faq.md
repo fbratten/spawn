@@ -2,7 +2,7 @@
 title: FAQ
 section: 05-appendix
 order: 2
-generated: 2026-04-03T01:21:31.186973
+generated: 2026-04-03T01:30:01.295882
 ---
 # Frequently Asked Questions
 

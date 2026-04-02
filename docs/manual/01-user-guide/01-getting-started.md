@@ -2,7 +2,7 @@
 title: Getting Started
 section: 01-user-guide
 order: 1
-generated: 2026-04-03T01:21:30.990388
+generated: 2026-04-03T01:30:01.096695
 ---
 # Getting Started
 

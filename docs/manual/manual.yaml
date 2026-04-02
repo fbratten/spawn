@@ -5,6 +5,14 @@ title: spawn Manual
 description: ''
 version: 1.0.0
 sources:
+- id: md-813b4978
+  type: markdown
+  path: CHANGELOG.md
+  description: ''
+  priority: 80
+  metadata:
+    filename: CHANGELOG.md
+    directory: .
 - id: readme_root
   type: readme
   path: README.md
@@ -18,7 +26,7 @@ sources:
   priority: 70
   metadata:
     filename: pyproject.toml
-- id: md-813b4978
+- id: md-57cc8c60
   type: markdown
   path: CHANGELOG.md
   description: ''
@@ -26,6 +34,46 @@ sources:
   metadata:
     filename: CHANGELOG.md
     directory: .
+- id: md-76ded92d
+  type: markdown
+  path: CODE_OF_CONDUCT.md
+  description: ''
+  priority: 30
+  metadata:
+    filename: CODE_OF_CONDUCT.md
+    directory: .
+- id: md-c57a2591
+  type: markdown
+  path: CONTRIBUTING.md
+  description: ''
+  priority: 30
+  metadata:
+    filename: CONTRIBUTING.md
+    directory: .
+- id: md-642e70d3
+  type: markdown
+  path: SECURITY.md
+  description: ''
+  priority: 30
+  metadata:
+    filename: SECURITY.md
+    directory: .
+- id: md-f66c1bda
+  type: markdown
+  path: .github/copilot-instructions.md
+  description: ''
+  priority: 30
+  metadata:
+    filename: copilot-instructions.md
+    directory: .github
+- id: md-8af7549e
+  type: markdown
+  path: .github/PULL_REQUEST_TEMPLATE.md
+  description: ''
+  priority: 30
+  metadata:
+    filename: PULL_REQUEST_TEMPLATE.md
+    directory: .github
 - id: docstring-3ae643a2
   type: docstring
   path: src/mcp_builder_mcp/server.py
@@ -363,7 +411,7 @@ sections:
 generate_spa: true
 generate_index: true
 created_at: '2026-04-03T01:21:18.830693'
-updated_at: '2026-04-03T01:21:30.904764'
+updated_at: '2026-04-03T01:30:01.030197'
 source_hashes:
   readme_root: f5b34430aca88fe551367075489851d9124976ffa0e384d376dfb72838120a8d
   pyproject-84216406: 84216406da316b91f3b1fa0c7e45be91b24e77554a59c9c73d9332ab86124914
@@ -399,5 +447,11 @@ source_hashes:
   folder-readme-a0bc1468: a0bc1468ba1f6f39b042af0e5b89551d2cb7d0f318b6648faf375bb6393c921c
   folder-readme-bb56c559: bb56c55921e7a9d4bd7a050474fa33a36e01f63f0ed81661cefa76135e0f7f1a
   folder-readme-a04d9144: a04d9144c7bdaed2e19b2122acbade4ecfe05033a09dac163c3e5843919d18e4
+  md-57cc8c60: 57cc8c60882005f8b006989c70d0d192079eaf004c7c99d370388aefa49bafb4
+  md-76ded92d: 76ded92d005dc35122c1ff9d79f14699bb27719c78b2e4deecb9638774042b3e
+  md-c57a2591: c57a25915f325c053bc2f830be010079d575a500086fa68fd3c485e549753382
+  md-642e70d3: 642e70d3ad511d0fd51d0440cc9d9dc1f5a25e3d3598f56d3f1c29169499ab33
+  md-f66c1bda: f66c1bdaa6a526e31bba9145a708264c0390e4c403deb969d4414675a1a0a39f
+  md-8af7549e: 8af7549ec721514b502c762f43ab9b93b080bf52be3934032ac2b96ea2d671b4
 page_hashes: {}
 page_sources: {}

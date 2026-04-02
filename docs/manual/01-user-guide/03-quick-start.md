@@ -2,7 +2,7 @@
 title: Quick Start
 section: 01-user-guide
 order: 3
-generated: 2026-04-03T01:21:31.021722
+generated: 2026-04-03T01:30:01.121700
 ---
 # Quick Start
 

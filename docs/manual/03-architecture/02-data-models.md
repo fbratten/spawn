@@ -2,7 +2,7 @@
 title: Data Models
 section: 03-architecture
 order: 2
-generated: 2026-04-03T01:21:31.108441
+generated: 2026-04-03T01:30:01.225818
 ---
 # Data Models
 

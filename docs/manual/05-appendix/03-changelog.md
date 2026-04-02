@@ -2,7 +2,7 @@
 title: Changelog
 section: 05-appendix
 order: 3
-generated: 2026-04-03T01:21:31.201519
+generated: 2026-04-03T01:30:01.307567
 ---
 # Changelog
 
@@ -21,37 +21,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+## [0.1.0] - 2026-04-03
 
 ### Added
-- Project initialization
-- Project registered as PROJ-CAHJG-BLHLI in Control Tower
-- ai-memory structure with shared context
-- Minna Memory configuration
-
-### Derived Projects
-- **8do-mcp v0.1.0** - Ralph Loop Orchestration MCP Server (27 tests)
-  - Core loop engine with TaskQueue, CircuitBreaker, RalphLoop
-  - 12 MCP tools: loop management, task inspection, configuration, observability
-  - Evidence-based verification with Verdict gate (ACCEPT/REVISE/REJECT)
-  - Whitelist-based Skills configuration with lanes
-  - Based on: loop orchestration patterns and skills architecture
-
-- **session-handover-mcp v0.4.0** - Multi-project handover support (138 tests)
-  - Workspace-level handover tools
-  - generate_workspace_handover, workspace_resume
-
-- **manual-mcp v1.4.0** - Content Quality Enhancements (299 tests)
-  - Phase 1: Content scoring foundation (priority propagation, relevance scores)
-  - Phase 2: Smart fallbacks (FallbackContentGenerator, MetadataCollector)
-  - Phase 3: Content mapping (ContentMapper for template variables)
-  - Phase 4: Cross-reference links (CrossReferenceEngine)
+- 17 MCP tools across primary, library, and pipeline categories
+- Multi-format log parser (tool calls, AI actions, user requests)
+- Pattern extraction engine with frequency analysis
+- 5-dimension buildability scoring (frequency, complexity, feasibility, impact, novelty)
+- Jinja2-based code generator producing complete MCP server packages
+- Pattern library with JSON persistence and tag-based search
+- Learning engine for outcome tracking and weight refinement
+- Optional memory integration (graceful degradation when unavailable)
+- 156 tests across unit, integration, and end-to-end suites
+- Generated output: server.py, pyproject.toml, tests, README, MCP_INFO.md
 
 ## [0.0.0] - 2026-01-24
 
 ### Added
 - Initial project scaffold
-- KB materials from previous session analysis
+- KB materials from session analysis
 
 ---
 

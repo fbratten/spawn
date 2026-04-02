@@ -2,11 +2,19 @@
 title: System Overview
 section: 03-architecture
 order: 1
-generated: 2026-04-03T01:21:31.096453
+generated: 2026-04-03T01:30:01.214714
 ---
 # System Overview
 
 This section describes the system architecture.
+
+
+## Architecture
+
+- AI-agnostic design (data + utilities, AI does semantic understanding)
+- Dependencies: mcp>=1.0.0, pyyaml>=6.0, jinja2>=3.1
+- Optional: Minna Memory integration (graceful degradation)
+- Generated code uses Jinja2 templates in generator/templates/
 
 ---
 

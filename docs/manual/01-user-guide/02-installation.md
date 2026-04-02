@@ -2,7 +2,7 @@
 title: Installation
 section: 01-user-guide
 order: 2
-generated: 2026-04-03T01:21:31.006090
+generated: 2026-04-03T01:30:01.109223
 ---
 # Installation
 
@@ -29,6 +29,15 @@ pip install -e ".[dev]"
 | mcp | >= 1.0.0 |
 | pyyaml | >= 6.0 |
 | jinja2 | >= 3.1 |
+
+
+
+## Quick Setup
+
+```bash
+uv venv .venv --python 3.12
+uv pip install -e ".[dev]" --python .venv/bin/python
+```
 
 ---
 
