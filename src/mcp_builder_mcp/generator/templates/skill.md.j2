@@ -1,0 +1,35 @@
+# {{ pattern.name }}
+
+> {{ pattern.description }}
+
+## Triggers
+
+Use this skill when:
+{% for trigger in pattern.triggers %}
+- User says: "{{ trigger.phrase }}"
+{% endfor %}
+
+## Inputs
+
+{% for input in pattern.inputs %}
+| Name | Type | Required | Default | Description |
+|------|------|----------|---------|-------------|
+| `{{ input.name }}` | {{ input.type }} | {{ "Yes" if input.required else "No" }} | {{ input.default if input.default else "-" }} | {{ input.description }} |
+{% endfor %}
+
+## Outputs
+
+{% for output in pattern.outputs %}
+- **{{ output.name }}** ({{ output.type }}{% if output.format %}, {{ output.format }}{% endif %}): {{ output.location if output.location else "Returned directly" }}
+{% endfor %}
+
+## Workflow
+
+{% for step in pattern.workflow_steps %}
+{{ loop.index }}. **{{ step.action }}**: {{ step.description }}
+{% endfor %}
+
+## Example
+
+```
+User: {{ pattern.triggers[0].phrase if pattern.triggers else "Run this skill" }}

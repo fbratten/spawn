@@ -1,0 +1,403 @@
+project_name: spawn
+project_path: /mnt/d/temp/myprojects/_pipeline-staging/spawn
+output_path: docs/manual
+title: spawn Manual
+description: ''
+version: 1.0.0
+sources:
+- id: readme_root
+  type: readme
+  path: README.md
+  description: Project README with installation and usage
+  priority: 85
+  metadata: {}
+- id: pyproject-84216406
+  type: pyproject
+  path: pyproject.toml
+  description: ''
+  priority: 70
+  metadata:
+    filename: pyproject.toml
+- id: md-813b4978
+  type: markdown
+  path: CHANGELOG.md
+  description: ''
+  priority: 80
+  metadata:
+    filename: CHANGELOG.md
+    directory: .
+- id: docstring-3ae643a2
+  type: docstring
+  path: src/mcp_builder_mcp/server.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: server.py
+    module: server
+- id: docstring-fb2b92b3
+  type: docstring
+  path: src/mcp_builder_mcp/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: docstring-b185c9ce
+  type: docstring
+  path: src/mcp_builder_mcp/extractor/pattern_extractor.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: pattern_extractor.py
+    module: pattern_extractor
+- id: docstring-e87fb73b
+  type: docstring
+  path: src/mcp_builder_mcp/extractor/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: docstring-25020d9b
+  type: docstring
+  path: src/mcp_builder_mcp/generator/generator_engine.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: generator_engine.py
+    module: generator_engine
+- id: docstring-6604ea17
+  type: docstring
+  path: src/mcp_builder_mcp/generator/validator.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: validator.py
+    module: validator
+- id: docstring-8a0032f7
+  type: docstring
+  path: src/mcp_builder_mcp/generator/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: docstring-a599615a
+  type: docstring
+  path: src/mcp_builder_mcp/models/pattern.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: pattern.py
+    module: pattern
+- id: docstring-73253803
+  type: docstring
+  path: src/mcp_builder_mcp/models/score.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: score.py
+    module: score
+- id: docstring-f1232e84
+  type: docstring
+  path: src/mcp_builder_mcp/models/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: docstring-df6bba0a
+  type: docstring
+  path: src/mcp_builder_mcp/parser/log_parser.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: log_parser.py
+    module: log_parser
+- id: docstring-2ab6f69e
+  type: docstring
+  path: src/mcp_builder_mcp/parser/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: docstring-2613796d
+  type: docstring
+  path: src/mcp_builder_mcp/scorer/scoring_engine.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: scoring_engine.py
+    module: scoring_engine
+- id: docstring-6dcb98cf
+  type: docstring
+  path: src/mcp_builder_mcp/scorer/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: docstring-40f57f6a
+  type: docstring
+  path: src/mcp_builder_mcp/store/learning.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: learning.py
+    module: learning
+- id: docstring-e5a32917
+  type: docstring
+  path: src/mcp_builder_mcp/store/minna_sync.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: minna_sync.py
+    module: minna_sync
+- id: docstring-da254fa4
+  type: docstring
+  path: src/mcp_builder_mcp/store/pattern_store.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: pattern_store.py
+    module: pattern_store
+- id: docstring-6149460a
+  type: docstring
+  path: src/mcp_builder_mcp/store/__init__.py
+  description: ''
+  priority: 60
+  metadata:
+    filename: __init__.py
+    module: __init__
+- id: folder-readme-c4930285
+  type: folder_readme
+  path: src/README.md
+  description: Folder documentation for src
+  priority: 55
+  metadata:
+    folder: src
+    depth: 1
+- id: folder-readme-49965c4c
+  type: folder_readme
+  path: tests/README.md
+  description: Folder documentation for tests
+  priority: 55
+  metadata:
+    folder: tests
+    depth: 1
+- id: folder-readme-b731a62e
+  type: folder_readme
+  path: src/mcp_builder_mcp/README.md
+  description: Folder documentation for src/mcp_builder_mcp
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp
+    depth: 2
+- id: folder-readme-8916de29
+  type: folder_readme
+  path: src/mcp_builder_mcp/extractor/README.md
+  description: Folder documentation for src/mcp_builder_mcp/extractor
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp/extractor
+    depth: 3
+- id: folder-readme-e6bc6d64
+  type: folder_readme
+  path: src/mcp_builder_mcp/generator/README.md
+  description: Folder documentation for src/mcp_builder_mcp/generator
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp/generator
+    depth: 3
+- id: folder-readme-1630f2f4
+  type: folder_readme
+  path: src/mcp_builder_mcp/models/README.md
+  description: Folder documentation for src/mcp_builder_mcp/models
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp/models
+    depth: 3
+- id: folder-readme-9eae1d92
+  type: folder_readme
+  path: src/mcp_builder_mcp/parser/README.md
+  description: Folder documentation for src/mcp_builder_mcp/parser
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp/parser
+    depth: 3
+- id: folder-readme-96703245
+  type: folder_readme
+  path: src/mcp_builder_mcp/scorer/README.md
+  description: Folder documentation for src/mcp_builder_mcp/scorer
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp/scorer
+    depth: 3
+- id: folder-readme-7bb0cf15
+  type: folder_readme
+  path: src/mcp_builder_mcp/store/README.md
+  description: Folder documentation for src/mcp_builder_mcp/store
+  priority: 55
+  metadata:
+    folder: src/mcp_builder_mcp/store
+    depth: 3
+- id: folder-readme-f9027163
+  type: folder_readme
+  path: tests/e2e/README.md
+  description: Folder documentation for tests/e2e
+  priority: 55
+  metadata:
+    folder: tests/e2e
+    depth: 2
+- id: folder-readme-a0bc1468
+  type: folder_readme
+  path: tests/fixtures/README.md
+  description: Folder documentation for tests/fixtures
+  priority: 55
+  metadata:
+    folder: tests/fixtures
+    depth: 2
+- id: folder-readme-bb56c559
+  type: folder_readme
+  path: tests/integration/README.md
+  description: Folder documentation for tests/integration
+  priority: 55
+  metadata:
+    folder: tests/integration
+    depth: 2
+- id: folder-readme-a04d9144
+  type: folder_readme
+  path: tests/unit/README.md
+  description: Folder documentation for tests/unit
+  priority: 55
+  metadata:
+    folder: tests/unit
+    depth: 2
+sections:
+- name: user-guide
+  title: User Guide
+  prefix: '01'
+  pages:
+  - title: Getting Started
+    filename: 01-getting-started.md
+    sources: []
+    template: null
+    order: 1
+  - title: Installation
+    filename: 02-installation.md
+    sources: []
+    template: null
+    order: 2
+  - title: Quick Start
+    filename: 03-quick-start.md
+    sources: []
+    template: null
+    order: 3
+  - title: Worked Examples
+    filename: 04-worked-examples.md
+    sources: []
+    template: null
+    order: 4
+  enabled: true
+- name: api-reference
+  title: API Reference
+  prefix: '02'
+  pages:
+  - title: Overview
+    filename: 01-overview.md
+    sources: []
+    template: null
+    order: 1
+  enabled: true
+- name: architecture
+  title: Architecture
+  prefix: '03'
+  pages:
+  - title: System Overview
+    filename: 01-system-overview.md
+    sources: []
+    template: null
+    order: 1
+  - title: Data Models
+    filename: 02-data-models.md
+    sources: []
+    template: null
+    order: 2
+  enabled: true
+- name: reference
+  title: Reference
+  prefix: '04'
+  pages:
+  - title: Configuration
+    filename: 01-configuration.md
+    sources: []
+    template: null
+    order: 1
+  - title: Error Handling
+    filename: 02-error-handling.md
+    sources: []
+    template: null
+    order: 2
+  enabled: true
+- name: appendix
+  title: Appendix
+  prefix: '05'
+  pages:
+  - title: Glossary
+    filename: 01-glossary.md
+    sources: []
+    template: null
+    order: 1
+  - title: FAQ
+    filename: 02-faq.md
+    sources: []
+    template: null
+    order: 2
+  - title: Changelog
+    filename: 03-changelog.md
+    sources: []
+    template: null
+    order: 3
+  enabled: true
+generate_spa: true
+generate_index: true
+created_at: '2026-04-03T01:21:18.830693'
+updated_at: '2026-04-03T01:21:30.904764'
+source_hashes:
+  readme_root: f5b34430aca88fe551367075489851d9124976ffa0e384d376dfb72838120a8d
+  pyproject-84216406: 84216406da316b91f3b1fa0c7e45be91b24e77554a59c9c73d9332ab86124914
+  md-813b4978: 813b4978d36b5afe70fd8d7f2fe8237644e66807c77226d74ad524e6e00bcbe3
+  docstring-3ae643a2: 3ae643a217bc57095fa365a28d8cebeea17d628c7bdf74a17107b3e6f4d178f0
+  docstring-fb2b92b3: fb2b92b357b6fad2a284bb075ee5c2d08b66e693b9b85dfa718b745f69ff152f
+  docstring-b185c9ce: b185c9cec08bfafb7ff065d081c369691d24f537ffc3afe7407879f003dd1267
+  docstring-e87fb73b: e87fb73b2d05dae32f7b8f207bd45aaaabbfcd5e0f0bc0507b24e5b15f0d5001
+  docstring-25020d9b: 25020d9b658897d462b0dee72a93b704a5e05c1bc81fa5a77e4dbad758b76b7b
+  docstring-6604ea17: 6604ea1702ad9899f416af7d3b4b78cdd76db46cb3d04187ac8166c6b720285d
+  docstring-8a0032f7: 8a0032f73bc356647752c6eaf2eacbe6ece6044fcc10451c592e67b5886a0650
+  docstring-a599615a: a599615ade75066036a55143ff7a0be2443992581b7ee60a7726da7f9ec2fca1
+  docstring-73253803: 73253803bd3ed098a0395ca0ae0ba3be47b0d332a6dab259c59615674730f6a1
+  docstring-f1232e84: f1232e840fc50ad0b38397839b305f643dfbfa2a97f3d3871ff4372b07e1bd59
+  docstring-df6bba0a: df6bba0a69bf9dab6bbfbe282d70adaa452b1dff4fb6314f2a73ed54dbe22804
+  docstring-2ab6f69e: 2ab6f69ef32b28307261943a467bbc24228d9b4b6b03b7abb2e1eccecabde951
+  docstring-2613796d: 2613796d242697ded09288b9aaca1267af0c12c5a8ba19d2daa347ad3863e2c5
+  docstring-6dcb98cf: 6dcb98cfb2c9d29ddd001a50d0229c7e616bad63a3216c97e2e353a834a2f883
+  docstring-40f57f6a: 40f57f6a02c1818deae19b4855f991b04674bd1b9979d4a8ea50a1f7de1c52c5
+  docstring-e5a32917: e5a329171a7263ff0843c546f09d548f9727221e911effd791cec5a99db18a3e
+  docstring-da254fa4: da254fa46f6b0ae60e28f1061cb163a07ffcaebb2aa10ebb41710d2980aa2d82
+  docstring-6149460a: 6149460ad9667da1010ba3e91cc482ec035fde1128d6aa857c8e877bf2b72cbd
+  folder-readme-c4930285: c493028562ab54aaca8beec749449154e7ac77baac75b80801de5ec8b1290e08
+  folder-readme-49965c4c: 49965c4c68a2e9a5ec248cc53500d390fa7adacce0636595ca74737a841a5e23
+  folder-readme-b731a62e: b731a62e52e20c580e71a720fa2f970a8ba2fa2ebd7c0159d95d505bb505e560
+  folder-readme-8916de29: 8916de29da02e13be7eb623a0d9a4e015596c7bd6d4434efc128e220b9d6bcac
+  folder-readme-e6bc6d64: e6bc6d6487b08f0b23b554eb2fdc9d8b912fab83e67d5c37e62b3c06fa2b0991
+  folder-readme-1630f2f4: 1630f2f4839c54859a1e478d05e841add3c4e4facc3e70485a8767e8f028369c
+  folder-readme-9eae1d92: 9eae1d922a68b0fca85f042767e80b9bc6fc3b674ce7428d2e53b90820cc78ef
+  folder-readme-96703245: 967032451ce254708a21bfabce047b110d233f6a014a649587f813f4effa3921
+  folder-readme-7bb0cf15: 7bb0cf153b96e09551ac646636b672472560cec69792b36ed825d8adaa82f692
+  folder-readme-f9027163: f9027163b9f9c56f4a4f7b2017bf55bb718c7dea1ffdcd33707aedc9ffd7d092
+  folder-readme-a0bc1468: a0bc1468ba1f6f39b042af0e5b89551d2cb7d0f318b6648faf375bb6393c921c
+  folder-readme-bb56c559: bb56c55921e7a9d4bd7a050474fa33a36e01f63f0ed81661cefa76135e0f7f1a
+  folder-readme-a04d9144: a04d9144c7bdaed2e19b2122acbade4ecfe05033a09dac163c3e5843919d18e4
+page_hashes: {}
+page_sources: {}
