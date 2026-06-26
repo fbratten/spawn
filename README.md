@@ -1,6 +1,8 @@
 # spawn
 
-> The MCP server that builds MCP servers.
+> Analyze AI agent logs, extract reusable workflow patterns, and generate production-ready MCP/FastMCP servers.
+
+**Tagline:** The MCP server that builds MCP servers.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)
