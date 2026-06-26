@@ -1,0 +1,16 @@
+[project]
+name = "issue-triage-mcp"
+version = "0.1.0"
+description = "Example generated MCP server for issue triage workflows."
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
