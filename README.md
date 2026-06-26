@@ -10,6 +10,57 @@
 
 ---
 
+## 30-second demo
+
+Input: an AI agent session log with repeated workflows.
+
+spawn can:
+
+1. parse the log,
+2. extract recurring workflow patterns,
+3. score which ones are worth automating,
+4. generate a complete MCP/FastMCP server,
+5. validate the generated structure,
+6. learn from build outcomes.
+
+Result: a reusable MCP server instead of a useful pattern trapped in chat history.
+
+![spawn pipeline](docs/assets/spawn-pipeline.svg)
+
+## Before -> after
+
+### Before
+
+A repeated agent workflow lives only in a session transcript:
+
+```text
+Read issue text -> classify issue -> create checklist -> write report
+```
+
+### After
+
+spawn turns that pattern into a reusable MCP/FastMCP server with:
+
+- tools,
+- tests,
+- `pyproject.toml`,
+- README,
+- MCP metadata.
+
+See [`examples/generated-mcp/`](examples/generated-mcp/) for a compact generated-output sample.
+
+## Who this is for
+
+spawn is for people building AI agent systems, MCP ecosystems, internal automation, or repeatable tool workflows from messy real-world agent sessions.
+
+It is especially useful when a workflow keeps appearing in agent traces and deserves to become an explicit, testable tool boundary.
+
+## What spawn is not
+
+spawn is not a general-purpose coding agent.
+
+It does not replace semantic judgment from the calling AI. It provides the MCP tools, scoring, templates, validation, and memory hooks needed to turn recurring agent workflows into reusable servers.
+
 ## What is spawn?
 
 spawn is a meta-MCP server that analyzes patterns in AI agent session logs, scores them for buildability, and generates complete MCP server implementations from those patterns.
@@ -170,6 +221,8 @@ For each pattern, spawn generates:
 - `MCP_INFO.md` - MCP metadata
 
 All generated code uses Jinja2 templates (customizable in `generator/templates/`).
+
+For a compact illustration of the generated-output contract, see [`examples/generated-mcp/`](examples/generated-mcp/).
 
 ## Testing
 
