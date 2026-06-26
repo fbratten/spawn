@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="180" viewBox="0 0 980 180" role="img" aria-labelledby="title desc">
+  <title id="title">spawn pipeline</title>
+  <desc id="desc">Session logs flow through pattern extraction, buildability scoring, MCP generation, validation, and learning.</desc>
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #334155; stroke-width: 2; rx: 12; }
+      .label { font: 600 16px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #0f172a; }
+      .small { font: 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #475569; }
+      .arrow { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="20" y="45" width="140" height="90" />
+  <text class="label" x="90" y="82" text-anchor="middle">Session logs</text>
+  <text class="small" x="90" y="108" text-anchor="middle">agent traces</text>
+
+  <path class="arrow" d="M165 90 H215" />
+
+  <rect class="box" x="220" y="45" width="150" height="90" />
+  <text class="label" x="295" y="78" text-anchor="middle">Extract</text>
+  <text class="small" x="295" y="103" text-anchor="middle">workflow patterns</text>
+
+  <path class="arrow" d="M375 90 H425" />
+
+  <rect class="box" x="430" y="45" width="150" height="90" />
+  <text class="label" x="505" y="78" text-anchor="middle">Score</text>
+  <text class="small" x="505" y="103" text-anchor="middle">buildability</text>
+
+  <path class="arrow" d="M585 90 H635" />
+
+  <rect class="box" x="640" y="45" width="150" height="90" />
+  <text class="label" x="715" y="78" text-anchor="middle">Generate</text>
+  <text class="small" x="715" y="103" text-anchor="middle">MCP/FastMCP</text>
+
+  <path class="arrow" d="M795 90 H845" />
+
+  <rect class="box" x="850" y="45" width="110" height="90" />
+  <text class="label" x="905" y="78" text-anchor="middle">Validate</text>
+  <text class="small" x="905" y="103" text-anchor="middle">learn</text>
+</svg>
